@@ -59,7 +59,7 @@ export default function App() {
     }
   });
   
-  PubSub.subscribe('test').subscribe({
+  PubSub.subscribe('topic_1').subscribe({
     next: data => console.log('Message received', data)
   });
 
